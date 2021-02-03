@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Tracker Habits</title>
+</head>
+
+<body>
+
+    <main id = "main-container" class = "container">
+
+        <header class = "header nav-sticky mb-1">
+            <div class = "brand">
+                <h3 class = "brand-name">Ericks Tracker</h3>
+            </div>
+        </header>
+
+        <section class = "row mb-2">
+
+            <div class = "container-information">
+                <h3 class ="information-item"> <span class="information-type"> name : </span> title habit </h3>
+            </div>
+
+            <div  id = "container-days" class = "container-tracker-days">
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+                <div class="item-tracker-days"></div>
+            </div>
+        </section>
+
+        <div id = "container-alerts">
+            <div class="alert">
+                this is an alert
+            </div>
+        </div>
+        
+        <section class= "container-actions-row">
+            <h3 class = "actions-title">
+                actions
+            </h3>
+            <div class = "actions-button">
+                <button data-modal-name = "modal-create-habit" id = "btn-create-habit" class = "btn btn-primary">add</button>
+            </div>
+        </section>
+
+        <section id = "container-habits">
+
+            <div class ="habit-card mb-1" data-id-card="" >
+                <div class ="habit-card-information">
+                    <h3 class="habit-name">name habit</h3>
+                    <span class = "habit-type">type habit</span>
+                    <span class = "state-habit">state habit</span>
+                    <p class="habit-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis autem iure consequatur.</p>
+                </div>
+                <div class ="habit-card-actions" data-id-card="" >
+                    <button data-modal-name = "modal-add-tracking" class = "btn-add-tracker btn btn-primary"> add tacker </button>
+                    <button data-modal-name = "modal-edit-habit" class = "btn-edit btn btn-primary"> edit</button>
+                    <button class = "btn-delete btn btn-danger"> delete</button>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- modal edit habit -->
+    
+    <div id="modal-edit-habit" class="modal">
+        <div class="modal-header">
+            <h3 class="modal-title">modal edit habit</h3>
+        </div>
+        <div class="modal-body">
+    
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-danger btn-cancel">cancel</button>
+            <button class="btn btn-primary btn-action">action</button>
+        </div>
+    </div>
+    
+    <!-- modal create habit -->
+    
+    <div id="modal-create-habit" class="modal">
+        <div class="modal-header">
+            <h3 class="modal-title">modal create habit</h3>
+        </div>
+        <div class="modal-body">
+    
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-danger btn-cancel">cancel</button>
+            <button class="btn btn-primary btn-action">action</button>
+        </div>
+    </div>
+    
+    <!-- modal add tracking data  -->
+    
+    <div id="modal-add-tracking" class="modal">
+        <div class="modal-header">
+            <h3 class="modal-title">modal add tracking</h3>
+        </div>
+        <div class="modal-body">
+    
+        </div>
+        <div class="modal-footer">
+            <button class = "btn btn-danger btn-cancel">cancel</button>
+            <button class = "btn btn-primary btn-action">action</button>
+        </div>
+    </div>
+
+
+    <script src = "./main.js">
+    </script>
+</body>
+</html>
